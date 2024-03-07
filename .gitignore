@@ -14,3 +14,6 @@ yarn.lock
 /server/build
 /public/build
 .vinxi
+dist
+# Local Netlify folder
+.netlify

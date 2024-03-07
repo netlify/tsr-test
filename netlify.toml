@@ -1,0 +1,9 @@
+[build]
+publish = "dist"
+command = "pnpm run build"
+
+[build.environment]
+NITRO_PRESET = "netlify"
+
+[dev]
+targetPort = 3000
